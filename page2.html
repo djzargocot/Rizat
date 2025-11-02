@@ -130,6 +130,32 @@
             0% { transform: translateY(100vh) rotate(0deg); }
             100% { transform: translateY(-100px) rotate(360deg); }
         }
+       
+
+/* Для планшетов */
+        @media (max-width: 768px) {
+        .calligraphy-text {
+            font-size: 3.5em;
+        }
+            .enter-btn {
+            font-size: 1.8em;
+            padding: 12px 40px;
+        }
+}
+
+        /* Для телефонов */
+        @media (max-width: 480px) {
+        .calligraphy-text {
+            font-size: 2.8em;
+        }
+        .enter-btn {
+            font-size: 1.5em;
+            padding: 10px 30px;
+        }
+        .sparkle {
+            font-size: 1.2em;
+        }
+}
     </style>
 </head>
 <body class="page2-body">
@@ -178,3 +204,4 @@
 </body>
 
 </html>
+
